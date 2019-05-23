@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+
+        <title>Opportunities - CommUp</title>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content=" A page where administrators or counselors can see what job, internship, or other opportunities are available in their community for their students.">
+        <meta name="author" content="Kevin Painter">
+        <meta name="keywords" content="opportunities, internship, student, CommUp, job">
+        <!-- Font Awesome for icons - see https://fontawesome.com/v4.7.0/cheatsheet/ -->
+        <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- Custom CSS - update this if you use a name other than style.css for the Sass-generated CSS -->
+        <link rel="stylesheet" href="css/card.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <!-- Popper.JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <!-- Bootstrap JS -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    </head>
+<!--===============================================================================================-->
+    <body>
+        <!--Interactive Sidebar Star -->
+
+       <div class="wrapper">                   <!--Start Wrapper-->
+        <!-- Sidebar  -->
+        <nav class="fixed-top"  id="sidebar">    <!--Start Nav-->
+            <div class="sidebar-header">
+                <h3>CommUp</h3>
+                <strong>CU</strong>
+            </div>
+
+
+            <ul class="list-unstyled components">
+                 <li>
+                    <a href="index.html"  class="active">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-user-graduate"></i>
+                        Students
+                    </a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="opportunities.html">Student Jobs</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-school"></i>
+                        My School
+                    </a>
+                    <li>
+                    <a href="#pageSubmenu">
+                       <i class="fas fa-chart-line"></i>
+                        Metrics
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                       <i class="fas fa-inbox"></i>
+                        Inbox
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-cog"></i>
+                        Settings
+                    </a>
+                </li>
+            </ul>
+              <ul class="list-unstyled CTAs">
+                <li>
+                    <a href="login.html" class="logout">Log Out</a>
+                </li>
+              </ul>
+            </nav>                                      <!--End Nav-->
+
+
+
+            <div class="container-fluid">
+        <div class="container" id="cont1">
+
+
+        <!-- Page Content  -->
+        <div id="content">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                        <span>Toggle</span>
+                    </button>
+                    
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="containter-fluid" id="maincont">
+                <div class="row" style="height:120px">
+                    <div class="col-md-3">
+                        <!-- <img class="img" src="img/comlogo.png" alt="company logo"> -->
+                    </div>
+                    <div class="col-md-12 text-center" id=#header>
+                        <br>
+                        <br>
+                        <h1> STUDENT JOBS</h1>
+
+                </div>
+
+            </div>
+        </div>
+            <br>
+            <br>
+<!--End Sidebar -->
+<!--- Breadcrumb -->
+ 
+    <ol class="breadcrumb arr-bread">
+ 
+        <li><a href="index.html">Home</a></li>
+ 
+        <li><a href="#">Students</a></li>
+ 
+        <li class="active"><span>Student Jobs</span></li>       
+ 
+     </ol>
+ 
+<!--- END Breadcrumb -->
+<br>
+
+        <!--- FILTERS LIST -->
+<div class="containter">            <!--- Open Filter Container -->       
+  <div class="row">                 <!--- Open Filter Row -->    
+    <div class="col-md-12">         <!--- Open Filter Col --> 
+        <div class="button-group">  <!--- Open Filter Button --> 
+            <button type="button" id="filter" class="btn btn-default btn-sm rounded dropdown-toggle" data-toggle="dropdown">Filters <i class="fas fa-caret-down fa-lg"></i></button>
+                <ul class="dropdown-menu" id="filterlist">
+                    <li><a href="#" class="small" data-value="option1" tabIndex="-1"><input type="checkbox"/>&nbsp;Agriculture, Food, and <br>Natural Resources</a></li>
+                    <li style="list-style:none;">&nbsp;</li>
+                    <li><a href="#" class="small" data-value="option2" tabIndex="-1"><input type="checkbox"/>&nbsp;Business and Marketing</a></li>
+                    <li style="list-style:none;">&nbsp;</li>
+                    <li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox"/>&nbsp;Hospitality and <br> Human Services</a></li>
+                    <li style="list-style:none;">&nbsp;</li>
+                    <li><a href="#" class="small" data-value="option4" tabIndex="-1"><input type="checkbox"/>&nbsp;Public Safety</a></li>
+                    <li style="list-style:none;">&nbsp;</li>
+                    <li><a href="#" class="small" data-value="option5" tabIndex="-1"><input type="checkbox"/>&nbsp;Architecture</a></li>
+                    <li style="list-style:none;">&nbsp;</li>
+                    <li><a href="#" class="small" data-value="option6" tabIndex="-1"><input type="checkbox"/>&nbsp;Education and Training</a></li>
+                </ul>
+        </div>         <!--- Close Filter Button --> 
+    </div>              <!--- Close Filter Col --> 
+  </div>                <!--- Close Filter Row --> 
+</div>                  <!--- Close Filter Container -->
+                        <!---Filter Javascript -->
+        <script> 
+        var options = [];
+
+        $( '.dropdown-menu a' ).on( 'click', function( event ) {
+
+           var $target = $( event.currentTarget ),
+               val = $target.attr( 'data-value' ),
+               $inp = $target.find( 'input' ),
+               idx;
+
+           if ( ( idx = options.indexOf( val ) ) > -1 ) {
+              options.splice( idx, 1 );
+              setTimeout( function() { $inp.prop( 'checked', false ) }, 0);
+           } else {
+              options.push( val );
+              setTimeout( function() { $inp.prop( 'checked', true ) }, 0);
+           }
+
+           $( event.target ).blur();
+              
+           console.log( options );
+           return false;
+        });
+        </script>
+                            <!--End Filter Javascript-->
+        <br>
+<!--- END FILTERS LIST -->
+<!--- Job Cards -->
+      <section id="team" class="pb-5">              <!---Start Main Section Div-->
+    <div class="container">                         <!--Start Main Job Conainter-->
+        <h5 class="section-title h1">Current Student Jobs</h5>  <!--Title-->
+
+        <div class="row">                           <!--Start Job Card Row-->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4"><!--Start Job Card Col-->
+                <div class="image-flip"> <!--Start Image Flip-->
+                    <div class="mainflip">           <!--Start Card Flip-->                                                                       
+                        <div class="frontside">      <!--Start Card Frontside-->
+                            <div class="card">       <!--Start Card-->
+                                <div class="card-body text-center">  <!--Start Card Body-->
+                                    <p><img class=" img-fluid" src="img/arconic.jpg" alt="card image"></p>
+                                    <h4 class="card-title">Arconic</h4>
+                                    <p class="card-text">Job Shadowing</p>
+                                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>              <!--End Card Body-->
+                            </div>                  <!--End Card-->
+                        </div>                      <!--End Card Frontside-->
+                        <div class="backside">      <!--Start Card Backside-->
+                            <div class="card">      <!--Start Card-->
+                                <div class="card-body text-center mt-4"> <!--Start Card Body-->
+                                    <h4 class="card-title">Job Shadowing</h4> <!-- Card Title-->
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> <!--Card Description-->
+                                    <ul class="list-inline"> <!--Start Social Media Icons-->
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-twitter-square"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul> <!--End Social Media Icons-->
+                                </div>  <!--End Card Body-->
+                            </div>   <!--End Card -->
+                        </div>      <!--End Card Backside-->
+                    </div>          <!--End Card Flip-->
+                </div>              <!--End Image Flip-->
+            </div>                  <!--End Job Card Col-->
+            <!-- ./Team member -->
+             <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4"><!--Start Job Card Col-->
+                <div class="image-flip"> <!--Start Image Flip-->
+                    <div class="mainflip">           <!--Start Card Flip-->                                                                       
+                        <div class="frontside">      <!--Start Card Frontside-->
+                            <div class="card">       <!--Start Card-->
+                                <div class="card-body text-center">  <!--Start Card Body-->
+                                    <p><img class=" img-fluid" src="img/simplicity.jpg" alt="Image of the Simplicity store logo"></p>
+                                    <h4 class="card-title">Simplicity</h4>
+                                    <p class="card-text">Internship</p>
+                                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>              <!--End Card Body-->
+                            </div>                  <!--End Card-->
+                        </div>                      <!--End Card Frontside-->
+                        <div class="backside">      <!--Start Card Backside-->
+                            <div class="card">      <!--Start Card-->
+                                <div class="card-body text-center mt-4"> <!--Start Card Body-->
+                                    <h4 class="card-title">Internship</h4> <!-- Card Title-->
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> <!--Card Description-->
+                                    <ul class="list-inline"> <!--Start Social Media Icons-->
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-twitter-square"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul> <!--End Social Media Icons-->
+                                </div>  <!--End Card Body-->
+                            </div>   <!--End Card -->
+                        </div>      <!--End Card Backside-->
+                    </div>          <!--End Card Flip-->
+                </div>              <!--End Image Flip-->
+            </div>                  <!--End Job Card Col-->
+            <!-- ./Team member -->
+             <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4"><!--Start Job Card Col-->
+                <div class="image-flip"> <!--Start Image Flip-->
+                    <div class="mainflip">           <!--Start Card Flip-->                                                                       
+                        <div class="frontside">      <!--Start Card Frontside-->
+                            <div class="card">       <!--Start Card-->
+                                <div class="card-body text-center">  <!--Start Card Body-->
+                                    <p><img class=" img-fluid" src="img/arconic.jpg" alt="Picture of the Arconic company logo"></p>
+                                    <h4 class="card-title">Arconic</h4>
+                                    <p class="card-text">Job Shadowing</p>
+                                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>              <!--End Card Body-->
+                            </div>                  <!--End Card-->
+                        </div>                      <!--End Card Frontside-->
+                        <div class="backside">      <!--Start Card Backside-->
+                            <div class="card">      <!--Start Card-->
+                                <div class="card-body text-center mt-4"> <!--Start Card Body-->
+                                    <h4 class="card-title">Shadowing</h4> <!-- Card Title-->
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> <!--Card Description-->
+                                    <ul class="list-inline"> <!--Start Social Media Icons-->
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-twitter-square"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul> <!--End Social Media Icons-->
+                                </div>  <!--End Card Body-->
+                            </div>   <!--End Card -->
+                        </div>      <!--End Card Backside-->
+                    </div>          <!--End Card Flip-->
+                </div>              <!--End Image Flip-->
+            </div>                  <!--End Job Card Col-->
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4"><!--Start Job Card Col-->
+                <div class="image-flip" > <!--Start Image Flip-->
+                    <div class="mainflip">           <!--Start Card Flip-->                                                                       
+                        <div class="frontside">      <!--Start Card Frontside-->
+                            <div class="card">       <!--Start Card-->
+                                <div class="card-body text-center">  <!--Start Card Body-->
+                                    <p><img class=" img-fluid" src="img/simplicity.jpg" alt="Image of the Simplicity store logo"></p>
+                                    <h4 class="card-title">Simplicity</h4>
+                                    <p class="card-text">Internship</p>
+                                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>              <!--End Card Body-->
+                            </div>                  <!--End Card-->
+                        </div>                      <!--End Card Frontside-->
+                        <div class="backside">      <!--Start Card Backside-->
+                            <div class="card">      <!--Start Card-->
+                                <div class="card-body text-center mt-4"> <!--Start Card Body-->
+                                    <h4 class="card-title">Internship</h4> <!-- Card Title-->
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> <!--Card Description-->
+                                    <ul class="list-inline"> <!--Start Social Media Icons-->
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-twitter-square"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul> <!--End Social Media Icons-->
+                                </div>  <!--End Card Body-->
+                            </div>   <!--End Card -->
+                        </div>      <!--End Card Backside-->
+                    </div>          <!--End Card Flip-->
+                </div>              <!--End Image Flip-->
+            </div>                  <!--End Job Card Col-->
+            <!-- ./Team member -->
+      <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4"><!--Start Job Card Col-->
+                <div class="image-flip"> <!--Start Image Flip-->
+                    <div class="mainflip">           <!--Start Card Flip-->                                                                       
+                        <div class="frontside">      <!--Start Card Frontside-->
+                            <div class="card">       <!--Start Card-->
+                                <div class="card-body text-center">  <!--Start Card Body-->
+                                    <p><img class=" img-fluid" src="img/arconic.jpg" alt="card image"></p>
+                                    <h4 class="card-title">Arconic</h4>
+                                    <p class="card-text"> Shadowing</p>
+                                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>              <!--End Card Body-->
+                            </div>                  <!--End Card-->
+                        </div>                      <!--End Card Frontside-->
+                        <div class="backside">      <!--Start Card Backside-->
+                            <div class="card">      <!--Start Card-->
+                                <div class="card-body text-center mt-4"> <!--Start Card Body-->
+                                    <h4 class="card-title">Shadowing</h4> <!-- Card Title-->
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> <!--Card Description-->
+                                    <ul class="list-inline"> <!--Start Social Media Icons-->
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-twitter-square"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul> <!--End Social Media Icons-->
+                                </div>  <!--End Card Body-->
+                            </div>   <!--End Card -->
+                        </div>      <!--End Card Backside-->
+                    </div>          <!--End Card Flip-->
+                </div>              <!--End Image Flip-->
+            </div>                  <!--End Job Card Col-->
+            <!-- ./Team member -->
+             <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4"><!--Start Job Card Col-->
+                <div class="image-flip"> <!--Start Image Flip-->
+                    <div class="mainflip">           <!--Start Card Flip-->                                                                       
+                        <div class="frontside">      <!--Start Card Frontside-->
+                            <div class="card">       <!--Start Card-->
+                                <div class="card-body text-center">  <!--Start Card Body-->
+                                    <p><img class=" img-fluid" src="img/simplicity.jpg" alt="Image of the Simplicity store logo"></p>
+                                    <h4 class="card-title">Simplicity</h4>
+                                    <p class="card-text">Internship</p>
+                                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>              <!--End Card Body-->
+                            </div>                  <!--End Card-->
+                        </div>                      <!--End Card Frontside-->
+                        <div class="backside">      <!--Start Card Backside-->
+                            <div class="card">      <!--Start Card-->
+                                <div class="card-body text-center mt-4"> <!--Start Card Body-->
+                                    <h4 class="card-title">Internship</h4> <!-- Card Title-->
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> <!--Card Description-->
+                                    <ul class="list-inline"> <!--Start Social Media Icons-->
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-twitter-square"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul> <!--End Social Media Icons-->
+                                </div>  <!--End Card Body-->
+                            </div>   <!--End Card -->
+                        </div>      <!--End Card Backside-->
+                    </div>          <!--End Card Flip-->
+                </div>              <!--End Image Flip-->
+            </div>                  <!--End Job Card Col-->
+            <!-- ./Team member -->
+
+        </div>      <!--End Job Card Row-->
+        </div>          <!---End Job Container Div-->
+        </section>          <!--End Job Card Section-->
+            
+            <script>
+            $('#image-flip').live('ontouchmove',function(e){
+                onTouchmove(e);
+            });
+
+            $('#image-flip').live('ontouchend',function(e){
+                noTouch(e);
+            });
+            </script>
+            <!--Script To Resize Screen when Nav is expanded for mobile-->
+            <script>
+            function resize() {
+                if ($(window).width() > 577) {
+                 $('#sidebar').addClass('fixed-top');
+                }
+                else {$('#sidebar').removeClass('fixed-top');}
+            }
+
+            $(document).ready( function() {
+                $(window).resize(resize);
+                resize();
+            });
+            </script>
+            <!--Javascript to make cards flip via click-->
+            <script>
+
+                $('.image-flip .mainflip').click(function() {
+                $(this).closest('.image-flip').toggleClass('hover');
+                $(this).css('transform, rotateY(180deg)');
+            });
+
+            </script>
+            <!--Sidebar Collapses or Expanding/Collapsing sidebar whne pressing toggle button-->
+            <script>
+                 $(document).ready(function () {
+                 $('#sidebarCollapse').on('click', function () {
+                 $('#sidebar').toggleClass('active');
+                   });
+                });
+            </script>
+    
+        </div> <!--End Page Content-->
+        </div> <!--End Container-->
+        </div> <!--End Container-fluid-->
+        </div>
+
+
+        </body>
+        </html>
